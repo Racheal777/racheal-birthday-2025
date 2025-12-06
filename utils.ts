@@ -1,3 +1,4 @@
+import { i } from "framer-motion/client";
 
 export const BIRTHDAY = new Date('1997-12-07T00:00:00');
 
@@ -29,9 +30,16 @@ export const SHOUTOUTS = [
   "GOD",
   "Mom",
   "Dad",
-  
   "Isaac",
   "Jojoo",
+  "Nii Koney",
+  "Afriyie",
+  "Abigail",
+  "Tony",
+  "Salam",
+  "Alhassan",
+  "Jephter",
+
   
 ];
 
@@ -50,9 +58,10 @@ export const AFFIRMATIONS = [
 ];
 
 export const MESSAGES = [
-  { id: 1, sender: "System", text: "Welcome to the new orbit, Pilot. Systems are optimal." },
-  { id: 2, sender: "Mom", text: "Happy Birthday! So proud of the woman you are becoming." },
-  { id: 3, sender: "Bestie", text: "Can't wait to celebrate! See you on the 7th! 🥂" }
+  { id: 1, sender: "Mercy Dufie Boateng", text: "May this new age come with favour and blessings. May God align your path and may HE give you all the you deserve according to His will. Cheers to a new chapter. Happy Birthday Rachael🥂🥂🎂🎂" },
+  { id: 2, sender: "Benson Yeboah", text: "Happy Birthday Racheal!🎆🎆 You’re a nice person. Openly willing to help people. And a good team player as well!" },
+  { id: 3, sender: "Miky Rola", text: "Be your best" },
+  { id: 4, sender: "Renaty Christian Oberku ", text: "I am happy for the lady you have turned out to be.You have shown anything is possible once you put your mind to it. God bless you more and more…PS I am waiting to be trained to start earning. Happy happy happy birthday!!!!" },
 ];
 
 // --- MUSEUM MODE: INITIAL STARS ---
@@ -82,7 +91,7 @@ export const INITIAL_STARS = [
     id: "init-4", 
     x: 25, 
     y: 25, 
-    memory: "Optimized a critical Java system, reducing processing time from 30 minutes to just 1 minute. 🤩⚡", 
+    memory: "Optimized a critical Java system, reducing processing time from 23 minutes to just 55 seconds. 🤩⚡", 
     timestamp: Date.now() 
   },
   { 
@@ -112,7 +121,32 @@ export const INITIAL_STARS = [
     y: 55,
     memory: "Updated my home office with an ergonomic chair and adjusted table. 😌🏠",
     timestamp: Date.now()
+  },
+
+  { 
+    id: "init-9",
+    x: 85,
+    y: 45,
+    memory: "I bought a washing machine 😎💻",
+    timestamp: Date.now()
+  },
+
+  {
+    id: "init-10",
+    x: 60,
+    y: 40,
+    memory: "I completed a self help book, The mountain is you 📚 😄",
+    timestamp: Date.now()
+  },
+
+  {
+    id: "init-11",
+    x: 30,
+    y: 30,
+    memory: "I went back to my hometown  after 5 years, definitely faced my fear after that terrible accident! 📝 😃",
+    timestamp: Date.now()
   }
+
 ];
 
 // --- UTILITY FUNCTIONS ---
