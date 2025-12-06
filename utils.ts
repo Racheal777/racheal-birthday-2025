@@ -62,91 +62,96 @@ export const MESSAGES = [
   { id: 2, sender: "Benson Yeboah", text: "Happy Birthday Racheal!🎆🎆 You’re a nice person. Openly willing to help people. And a good team player as well!" },
   { id: 3, sender: "Miky Rola", text: "Be your best" },
   { id: 4, sender: "Renaty Christian Oberku ", text: "I am happy for the lady you have turned out to be.You have shown anything is possible once you put your mind to it. God bless you more and more…PS I am waiting to be trained to start earning. Happy happy happy birthday!!!!" },
+  { id: 5, sender: "Joy Adevu", text: "I pray you get all the tech on your wishlist and more. Wishing you the best and happiest birthday ever" }
 ];
 
-// --- MUSEUM MODE: INITIAL STARS ---
 export const INITIAL_STARS = [
-  { 
-    id: "init-1", 
-    x: 50, 
-    y: 50, 
-    memory: "Officially achieved the Google Cloud Certified Generative AI Leader certification. 😁🏆", 
-    timestamp: Date.now() 
-  },
-  { 
-    id: "init-2", 
-    x: 20, 
-    y: 75, 
-    memory: "Successfully navigated a career transition from Political Science to Software Development. 😄💻", 
-    timestamp: Date.now() 
-  },
-  { 
-    id: "init-3", 
-    x: 80, 
-    y: 25, 
-    memory: "Guided over 370 beginners into tech roles across 6 cohorts in the last two years. 😃🌱", 
-    timestamp: Date.now() 
-  },
-  { 
-    id: "init-4", 
-    x: 25, 
-    y: 25, 
-    memory: "Optimized a critical Java system, reducing processing time from 23 minutes to just 55 seconds. 🤩⚡", 
-    timestamp: Date.now() 
-  },
+ 
   { 
     id: "init-5", 
-    x: 75, 
-    y: 70, 
+    x: 50, 
+    y: 18, // Was 15, moved down
     memory: "Traveled internationally for the first time to attend PyCon Africa in South Africa. 😆✈️", 
     timestamp: Date.now() 
   },
   { 
-    id: "init-6", 
-    x: 45, 
-    y: 85, 
-    memory: "Led a workshop on Mastering Prompt Engineering and NotebookLM, training organizational teams. 😊🎤", 
-    timestamp: Date.now() 
-  },
-  { 
     id: "init-7", 
-    x: 55, 
-    y: 15, 
+    x: 25, // Was 30, moved left slightly
+    y: 25, 
     memory: "Attended 'I Am Remarkable' at Google, overcoming the fear of sharing my professional achievements. 🥰💪", 
     timestamp: Date.now() 
   },
-  {
-    id: "init-8",
-    x: 15,
-    y: 55,
-    memory: "Updated my home office with an ergonomic chair and adjusted table. 😌🏠",
-    timestamp: Date.now()
+  { 
+    id: "init-10", 
+    x: 75, // Was 70, moved right slightly
+    y: 25, 
+    memory: "I completed a self help book, The mountain is you 📚 😄", 
+    timestamp: Date.now() 
   },
+
 
   { 
-    id: "init-9",
-    x: 85,
-    y: 45,
-    memory: "I bought a washing machine 😎💻",
-    timestamp: Date.now()
+    id: "init-1", 
+    x: 15, // Was 10 (Safe zone)
+    y: 45, 
+    memory: "Officially achieved the Google Cloud Certified Generative AI Leader certification. 😁🏆", 
+    timestamp: Date.now() 
+  },
+  { 
+    id: "init-6", 
+    x: 12, // Was 8 (This was likely missing)
+    y: 65, 
+    memory: "Led a workshop on Mastering Prompt Engineering and NotebookLM, training organizational teams. 😊🎤", 
+    timestamp: Date.now() 
   },
 
-  {
-    id: "init-10",
-    x: 60,
-    y: 40,
-    memory: "I completed a self help book, The mountain is you 📚 😄",
-    timestamp: Date.now()
+  // --- RIGHT FLANK (Pulled away from the right edge) ---
+  { 
+    id: "init-2", 
+    x: 85, // Was 90 (This was likely missing)
+    y: 38, 
+    memory: "Successfully navigated a career transition from Political Science to Software Development. 😄💻", 
+    timestamp: Date.now() 
+  },
+  { 
+    id: "init-9", 
+    x: 88, // Was 92 (This was likely missing)
+    y: 65, 
+    memory: "I bought a washing machine 😎💻", 
+    timestamp: Date.now() 
   },
 
+  // --- BOTTOM ZONE (Moved up to avoid scrolling issues) ---
+  { 
+    id: "init-4", 
+    x: 80, 
+    y: 75, // Was 80
+    memory: "Optimized a critical Java system, reducing processing time from 23 minutes to just 55 seconds. 🤩⚡", 
+    timestamp: Date.now() 
+  },
+  { 
+    id: "init-3", 
+    x: 20, 
+    y: 75, // Was 80
+    memory: "Guided over 370 beginners into tech roles across 6 cohorts in the last two years. 😃🌱", 
+    timestamp: Date.now() 
+  },
+  { 
+    id: "init-11", 
+    x: 50, 
+    y: 82, // Was 88 (moved up so it doesn't hit the quote ticker)
+    memory: "I went back to my hometown after 5 years, definitely faced my fear after that terrible accident! 📝 😃", 
+    timestamp: Date.now() 
+  },
+  
+  // --- INNER FILLER ---
   {
-    id: "init-11",
-    x: 30,
-    y: 30,
-    memory: "I went back to my hometown  after 5 years, definitely faced my fear after that terrible accident! 📝 😃",
+    id: "init-8",
+    x: 30, // Was 18 (Moved inward to avoid HUD overlap)
+    y: 32, 
+    memory: "Updated my home office with an ergonomic chair and adjusted table. 😌🏠",
     timestamp: Date.now()
   }
-
 ];
 
 // --- UTILITY FUNCTIONS ---
