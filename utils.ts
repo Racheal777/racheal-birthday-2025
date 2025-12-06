@@ -1,4 +1,4 @@
-import { i } from "framer-motion/client";
+
 
 export const BIRTHDAY = new Date('1997-12-07T00:00:00');
 
@@ -33,12 +33,15 @@ export const SHOUTOUTS = [
   "Isaac",
   "Jojoo",
   "Nii Koney",
+
   "Afriyie",
   "Abigail",
   "Tony",
   "Salam",
   "Alhassan",
+  
   "Jephter",
+  "Aziz",
 
   
 ];
