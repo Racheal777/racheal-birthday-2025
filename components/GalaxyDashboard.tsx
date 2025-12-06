@@ -20,20 +20,8 @@ import CometsLayer from './CometsLayer';
 type BirthdayPhase = 'countdown' | 'launch' | 'celebration';
 
 const GalaxyDashboard: React.FC = () => {
-  // Initialize state from local storage if available, otherwise use Museum Mode defaults
-  const [stars, setStars] = useState<StarData[]>(() => {
-    try {
-      const saved = localStorage.getItem('constellation_memories');
-      if (saved) {
-        const parsed = JSON.parse(saved);
-        return parsed.length > 0 ? parsed : INITIAL_STARS;
-      }
-      return INITIAL_STARS;
-    } catch (e) {
-      console.warn("Failed to parse memories from local storage");
-      return INITIAL_STARS;
-    }
-  });
+  // Initialize state from hardcoded defaults. No more local storage.
+  const [stars, setStars] = useState<StarData[]>(INITIAL_STARS);
 
   const [modalOpen, setModalOpen] = useState(false);
   
@@ -72,11 +60,6 @@ const GalaxyDashboard: React.FC = () => {
     const timer = setInterval(checkDate, 1000); 
     return () => clearInterval(timer);
   }, []);
-
-  // Persist stars to local storage whenever they change
-  useEffect(() => {
-    localStorage.setItem('constellation_memories', JSON.stringify(stars));
-  }, [stars]);
 
   const handleLaunchComplete = () => {
     setBirthdayPhase('celebration');

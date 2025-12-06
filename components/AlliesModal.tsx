@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { X, Users, Plus, Trash2 } from 'lucide-react';
 import { SHOUTOUTS } from '../utils';
@@ -9,22 +9,9 @@ interface AlliesModalProps {
 }
 
 const AlliesModal: React.FC<AlliesModalProps> = ({ isOpen, onClose }) => {
-  // Initialize from local storage or fall back to the default constant
-  const [allies, setAllies] = useState<string[]>(() => {
-    try {
-      const saved = localStorage.getItem('constellation_allies');
-      return saved ? JSON.parse(saved) : SHOUTOUTS;
-    } catch (e) {
-      return SHOUTOUTS;
-    }
-  });
-
+  // Initialize from the hardcoded constant. No more local storage.
+  const [allies, setAllies] = useState<string[]>(SHOUTOUTS);
   const [newAlly, setNewAlly] = useState('');
-
-  // Persist changes
-  useEffect(() => {
-    localStorage.setItem('constellation_allies', JSON.stringify(allies));
-  }, [allies]);
 
   const handleAddAlly = (e: React.FormEvent) => {
     e.preventDefault();

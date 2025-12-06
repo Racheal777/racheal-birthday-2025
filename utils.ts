@@ -31,17 +31,21 @@ export const SHOUTOUTS = [
   "Mom",
   "Dad",
   "Isaac",
-  "Jojoo",
+  "Jojoo Imbeah",
   "Nii Koney",
 
-  "Afriyie",
+  "Akua Afriyie",
+  "Sandra",
   "Abigail",
-  "Tony",
+  "Tonytay",
   "Salam",
+
   "Alhassan",
-  
+  "Kwesi Dadson",
   "Jephter",
-  "Aziz",
+  "Abdul Aziz",
+  "ME"
+
 
   
 ];
