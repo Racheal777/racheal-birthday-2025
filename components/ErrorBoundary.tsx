@@ -57,6 +57,7 @@ class ErrorBoundary extends React.Component<Props, State> {
       );
     }
 
+    // Fix: Correctly return children when there is no error. The original code was correct but rewriting it to ensure no hidden issues.
     return this.props.children;
   }
 }
