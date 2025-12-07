@@ -91,6 +91,12 @@ export const MESSAGES = [
         "\n" +
         "Here’s to clean code, smooth deploys, and a year full of wins—both in tech and in life. Keep building amazing things. 💻✨", date: "2025-12-07 08:14:58" },
   { id: 14, sender: "Adepa", text: "Happy birthday to you Auntie Rachael.  I pray that you will be filled with love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self control. You will lead a great nation. God bless you greatly. I love you 😘", date: "2025-12-07 08:35:33" },
+  { id: 15, sender: "Ras", text: "Happy Birthday 🎉 🎂 \n" +
+        "You have the kindest heart and the biggest dreams. I hope all the amazing things you wish for yourself, the quiet hopes and the ambitious goals come true this year. All your well wishes are coming true 🙏🏾❤️", date: "2025-12-07 09:07:31" },
+  { id: 16, sender: "Olajumoke Akintola", text: "Happy birthday Racheal, thank you for your friendship, thoughtfulness and generosity. Keep glowing, growing and may your dreams come true.", date: "2025-12-07 09:15:59" },
+  { id: 17, sender: "Linda Owusu", text: "To my soft life girl, you deserve all the happiness in the world today and always. Happy birthday, dear.\n" +
+        "God bless you 🙏", date: "2025-12-07 11:55:46" },
+  { id: 18, sender: "Joshua Yentumi", text: "A very wonderful friend the Ghana Data Science Hub - Accra Digital Centre gave me. You've grown year in year out and accomplished very impressive feats. On this your new age, may you continue to achieve great things.", date: "2025-12-07 13:36:59" },
 ];
 
 export const INITIAL_STARS = [
