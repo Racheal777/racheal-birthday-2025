@@ -97,6 +97,21 @@ export const MESSAGES = [
   { id: 17, sender: "Linda Owusu", text: "To my soft life girl, you deserve all the happiness in the world today and always. Happy birthday, dear.\n" +
         "God bless you 🙏", date: "2025-12-07 11:55:46" },
   { id: 18, sender: "Joshua Yentumi", text: "A very wonderful friend the Ghana Data Science Hub - Accra Digital Centre gave me. You've grown year in year out and accomplished very impressive feats. On this your new age, may you continue to achieve great things.", date: "2025-12-07 13:36:59" },
+  { id: 19, sender: "Nana Akua", text: "From our GTL days to now, God has been faithful! To many more milestones ahead !! Happy Birthday 🎊🎊🎊", date: "2025-12-07 13:36:59" },
+  { id: 20, sender: "Eunice Asamoah", text: "Happy happy birthday beautiful Mentor. May God continue to elevate you to higher dimensions. Enjoy your day ma’am🥳🥳🥳🥳💃💃🎂🎂🎂🎊", date: "2025-12-07 13:36:59" },
+  { id: 21, sender: "Juls", text: "Wishing you all the joy your heart can hold today and always.🥳🎂🥳🎊", date: "2025-12-07 13:36:59" },
+  { id: 22, sender: "Irene Ntongwe", text: "Happy Birthday, Rachel.\n" +
+"May God bless you with joy, wisdom, and peace in the year ahead.\n" +
+"May His light guide every step you take, and may He surround you with favor, good health, and open doors.\n"+
+"I pray that everything you touch prospers, and that your heart finds happiness in all you do.\n"+
+"May this new age bring you closer to your purpose and fill your life with grace.", date: "2025-12-07 15:15:48" },
+  { id: 23, sender: "Pobee", text: "Blessed birthday Queen of Soft Life❤️🥳\n"
++"December borns are the best!\n"+
+"Have an fulfilling new year!\n" +
+"Cheers🥂", date: "2025-12-07 16:44:48" },
+  { id: 24, sender: "Sarah Aryee", text: "On this very day I celebrate a sister for being amazing!🥳🎊🥂\n"+
+"As you turn a new age today, I pray the good Lord cause His face to shine upon you and be gracious unto you. You are blessed beyond measure ♥️", date: "2025-12-07 18:29:04" },
+  { id: 25, sender: "FYEO", text: "Happy Birthday Racheal!! It's been unreal watching you grow and succeed. You should be proud! Keep aiming for the top, it's yours to take ❤️", date: "2025-12-07 20:31:20" },
 ];
 
 export const INITIAL_STARS = [
