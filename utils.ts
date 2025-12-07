@@ -65,11 +65,11 @@ export const AFFIRMATIONS = [
 ];
 
 export const MESSAGES = [
-  { id: 1, sender: "Mercy Dufie Boateng", text: "May this new age come with favour and blessings. May God align your path and may HE give you all the you deserve according to His will. Cheers to a new chapter. Happy Birthday Rachael🥂🥂🎂🎂" },
-  { id: 2, sender: "Benson Yeboah", text: "Happy Birthday Racheal!🎆🎆 You’re a nice person. Openly willing to help people. And a good team player as well!" },
-  { id: 3, sender: "Miky Rola", text: "Be your best" },
-  { id: 4, sender: "Renaty Christian Oberku", text: "I am happy for the lady you have turned out to be.You have shown anything is possible once you put your mind to it. God bless you more and more…PS I am waiting to be trained to start earning. Happy happy happy birthday!!!!" },
-  { id: 5, sender: "Joy Adevu", text: "I pray you get all the tech on your wishlist and more. Wishing you the best and happiest birthday ever" },
+  { id: 1, sender: "Mercy Dufie Boateng", text: "May this new age come with favour and blessings. May God align your path and may HE give you all the you deserve according to His will. Cheers to a new chapter. Happy Birthday Rachael🥂🥂🎂🎂", date: "2025-12-06 20:44:28"},
+  { id: 2, sender: "Benson Yeboah", text: "Happy Birthday Racheal!🎆🎆 You’re a nice person. Openly willing to help people. And a good team player as well!", date: "2025-12-06 20:33:44" },
+  { id: 3, sender: "Miky Rola", text: "Be your best", date: "2025-12-06 20:22:35" },
+  { id: 4, sender: "Renaty Christian Oberku", text: "I am happy for the lady you have turned out to be.You have shown anything is possible once you put your mind to it. God bless you more and more…PS I am waiting to be trained to start earning. Happy happy happy birthday!!!!", date: "2025-12-06 21:34:36" },
+  { id: 5, sender: "Joy Adevu", text: "I pray you get all the tech on your wishlist and more. Wishing you the best and happiest birthday ever", date: "2025-12-06 21:50:04" },
   { id: 6, sender: "Theodora Addeafi Gyambrah", text: "To my amazing friend and fellow tech sis… today is all about you and the beautiful soft life you continue to embody.\n" +
         "\n" +
         "You are one of the most curious people I know, and that curiosity has shaped such a powerful, inspiring journey. You say I inspire you, but the truth is that I draw inspiration from you too. Watching how you carved out a thriving career in tech, even with your background reminds me every day that passion, hunger to learn, and determination can rewrite any story.\n" +
@@ -80,13 +80,17 @@ export const MESSAGES = [
         "\n" +
         "Cheers to more wins, more beauty, more travel, more shared laughter, and more breakthroughs.\n" +
         "\n" +
-        "Happy Birthday, Rachael! 🎉" },
-  { id: 7, sender: "Adjoa Osei Agyemang", text: "A glorious Happy Birthday to you dear auntie🎉🎂.You have by far been a remarkable person in my life🌟. Thank you for the kindness and love you have been showing me for the past few days ❤️. Because of this,I raise high course and say may God's love brighten your path today and forever 🥰✨.I wish you a year ahead that is filled with peace, joy and prosperity 🕊️😊💰.May every sweet dream you hold in your heart come true by God's grace gift 🎁. Thank you for being such a glorious blessing in my life 😊😊.." },
-  { id: 8, sender: "Sedinam", text: "I've  watched from afar your transition. And I must say you're  by far one of the most resilient people I've  met. On your special day, I only want to wish you well in all you do. Continue growing in wisdom. Happy birthday my old time buddy ❤️ 😘 💙" },
-  { id: 9, sender: "Ushama", text: "Rachel is an amazing person who brings out the best in everyone around her. A true gem 💎 Her strength, dedication and resilience in her professional journey is truly inspiring. Thank you for carrying us along in this beautiful journey. I pray that you achieve your dreams and aspirations. A blessed new age to you!" },
-  { id: 10, sender: "Isaac", text: "I am making sure words don't fail me today😁🎊. Aging like fine wine, and I'm the lucky one who gets to drink it. Happy birthday to the lady who stole my heart and still hasn't given it back. I don't think I need it any way!❤️🔐\n Wishing you God's speed Sweetheart" },
-  { id: 11, sender: "Grey", text: "May this new chapter bring you more wins, more peace and more moments that remind you how blessed you are. Keep shining and keep becoming the best version of yourself. Cheers to a great year ahead🎊" },
-  { id: 12, sender: "Maame Esi", text: "Happy Birthday, Rachael 💖. Wishing you a year overflowing with God's love, laughter, and dreams that chase you down. May your kindness and sweetness touch even more hearts, and may you feel cherished today and always. Praying for joy to fill your cup.  Love you 🎂💕." },
+        "Happy Birthday, Rachael! 🎉", date: "2025-12-06 23:32:28" },
+  { id: 7, sender: "Adjoa Osei Agyemang", text: "A glorious Happy Birthday to you dear auntie🎉🎂.You have by far been a remarkable person in my life🌟. Thank you for the kindness and love you have been showing me for the past few days ❤️. Because of this,I raise high course and say may God's love brighten your path today and forever 🥰✨.I wish you a year ahead that is filled with peace, joy and prosperity 🕊️😊💰.May every sweet dream you hold in your heart come true by God's grace gift 🎁. Thank you for being such a glorious blessing in my life 😊😊..", date: "2025-12-06 23:40:51" },
+  { id: 8, sender: "Sedinam", text: "I've  watched from afar your transition. And I must say you're  by far one of the most resilient people I've  met. On your special day, I only want to wish you well in all you do. Continue growing in wisdom. Happy birthday my old time buddy ❤️ 😘 💙", date: "2025-12-07 05:53:29" },
+  { id: 9, sender: "Ushama", text: "Rachel is an amazing person who brings out the best in everyone around her. A true gem 💎 Her strength, dedication and resilience in her professional journey is truly inspiring. Thank you for carrying us along in this beautiful journey. I pray that you achieve your dreams and aspirations. A blessed new age to you!", date: "2025-12-07 07:10:02" },
+  { id: 10, sender: "Isaac", text: "I am making sure words don't fail me today😁🎊. Aging like fine wine, and I'm the lucky one who gets to drink it. Happy birthday to the lady who stole my heart and still hasn't given it back. I don't think I need it any way!❤️🔐\n Wishing you God's speed Sweetheart", date: "2025-12-07 07:10:25" },
+  { id: 11, sender: "Grey", text: "May this new chapter bring you more wins, more peace and more moments that remind you how blessed you are. Keep shining and keep becoming the best version of yourself. Cheers to a great year ahead🎊", date: "2025-12-07 07:42:40" },
+  { id: 12, sender: "Maame Esi", text: "Happy Birthday, Rachael 💖. Wishing you a year overflowing with God's love, laughter, and dreams that chase you down. May your kindness and sweetness touch even more hearts, and may you feel cherished today and always. Praying for joy to fill your cup.  Love you 🎂💕.", date: "2025-12-07 08:08:02" },
+  { id: 13, sender: "MPY", text: "Happy Birthday, Racheal! 🎉\n" +
+        "\n" +
+        "Here’s to clean code, smooth deploys, and a year full of wins—both in tech and in life. Keep building amazing things. 💻✨", date: "2025-12-07 08:14:58" },
+  { id: 14, sender: "Adepa", text: "Happy birthday to you Auntie Rachael.  I pray that you will be filled with love, joy, peace, patience, kindness, goodness, faithfulness, gentleness and self control. You will lead a great nation. God bless you greatly. I love you 😘", date: "2025-12-07 08:35:33" },
 ];
 
 export const INITIAL_STARS = [

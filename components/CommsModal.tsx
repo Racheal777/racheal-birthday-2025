@@ -21,7 +21,7 @@ const CommsModal: React.FC<CommsModalProps> = ({ isOpen, onClose }) => {
             onClick={onClose}
             className="fixed inset-0 bg-black/50 backdrop-blur-[2px] z-40"
           />
-          
+
           {/* Sliding Side Panel */}
           <motion.div
             className="fixed top-0 right-0 h-full w-[90vw] md:w-[400px] z-50 bg-[#0a0c10] border-l border-green-500/30 shadow-[-10px_0_40px_rgba(34,197,94,0.1)] flex flex-col"
@@ -32,7 +32,7 @@ const CommsModal: React.FC<CommsModalProps> = ({ isOpen, onClose }) => {
           >
             {/* Header */}
             <div className="relative p-6 border-b border-green-500/20 bg-green-900/5">
-              <button 
+              <button
                 onClick={onClose}
                 className="absolute top-6 right-6 text-green-500/50 hover:text-green-400 transition-colors"
               >
@@ -48,10 +48,10 @@ const CommsModal: React.FC<CommsModalProps> = ({ isOpen, onClose }) => {
               <p className="text-[10px] text-green-500/60 font-mono uppercase tracking-[0.2em]">
                 Encrypted Transmissions Received
               </p>
-              
+
               {/* Scanline decoration */}
               <div className="absolute bottom-0 left-0 w-full h-[1px] bg-green-500/30" />
-              <motion.div 
+              <motion.div
                 className="absolute bottom-0 left-0 h-[2px] bg-green-400 box-shadow-[0_0_10px_#4ade80]"
                 animate={{ width: ["0%", "100%", "0%"], left: ["0%", "0%", "100%"] }}
                 transition={{ duration: 3, repeat: Infinity, ease: "linear" }}
@@ -85,7 +85,7 @@ const CommsModal: React.FC<CommsModalProps> = ({ isOpen, onClose }) => {
                         [{msg.sender}]
                       </span>
                       <span className="font-mono text-[10px] text-gray-600">
-                        {String(index + 1).padStart(2, '0')}
+                        {new Date(msg.date).toLocaleDateString().slice(1)}
                       </span>
                     </div>
                     <p className="font-mono text-sm text-gray-300 leading-relaxed group-hover:text-white transition-colors">
