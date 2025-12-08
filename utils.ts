@@ -112,6 +112,12 @@ export const MESSAGES = [
   { id: 24, sender: "Sarah Aryee", text: "On this very day I celebrate a sister for being amazing!🥳🎊🥂\n"+
 "As you turn a new age today, I pray the good Lord cause His face to shine upon you and be gracious unto you. You are blessed beyond measure ♥️", date: "2025-12-07 18:29:04" },
   { id: 25, sender: "FYEO", text: "Happy Birthday Racheal!! It's been unreal watching you grow and succeed. You should be proud! Keep aiming for the top, it's yours to take ❤️", date: "2025-12-07 20:31:20" },
+  { id: 26, sender: "Wilfred", text: "Happy Birthday, darling Racheal \n" +
+        "I’m so grateful for your life and the gift of your friendship. May this new year of your life overflow with joy, unexpected blessings, and moments that remind you just how exceptional you are.\n" +
+        "\n" +
+        "Here’s to more growth, more adventures, and more wins for a soft life. \n" +
+        "\n" +
+        "Enjoy your day — you deserve every bit of happiness that comes your way. 🎉", date: "2025-12-08 16:34:08" },
 ];
 
 export const INITIAL_STARS = [
