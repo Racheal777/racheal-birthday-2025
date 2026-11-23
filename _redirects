@@ -1,0 +1,6 @@
+# Netlify redirects / rewrites.
+# A friend who reopens their keepsake link (/letter/<id>) must still get the app,
+# which then reads the id from the path and fetches that one letter.
+/letter/*    /index.html    200
+
+# The archived 2025 site is a real folder (/2025/) and serves itself.

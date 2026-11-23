@@ -1,0 +1,6 @@
+{
+  "cleanUrls": true,
+  "rewrites": [
+    { "source": "/letter/:id", "destination": "/index.html" }
+  ]
+}
